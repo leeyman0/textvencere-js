@@ -1,0 +1,17 @@
+{
+  "name": "tekest",
+  "version": "0.0.1",
+  "description": "A text adventure engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^11.6.0"
+  },
+  "dependencies": {
+    "yaml": "^2.8.0"
+  }
+}
