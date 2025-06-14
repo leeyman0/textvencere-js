@@ -1,4 +1,4 @@
-/** @typedef {{ action: string, object?: string, at?: string, to?: string, from?: string, on?: string, into?: string }} UserAction */
+/** @typedef {{ action: string, object?: string, at?: string, to?: string, from?: string, on?: string, with?: string, into?: string }} UserAction */
 
 const FLUFF_WORDS = ["the", "a", "an"];
 const PREPOSITIONS = ["at", "to", "from", "on", "into", "with"];
