@@ -4,12 +4,15 @@
   "description": "A text adventure engine",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha"
+    "test": "npx mocha",
+    "coverage": "npx nyc npm run test"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^11.6.0"
+    "mocha": "^11.6.0",
+    "nyc": "^17.1.0",
+    "unexpected": "^13.2.1"
   },
   "dependencies": {
     "yaml": "^2.8.0"

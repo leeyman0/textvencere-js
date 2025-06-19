@@ -1,1 +1,6 @@
+# npm stuff
 node_modules
+
+# Used for testing purposes.
+coverage
+.nyc_output
