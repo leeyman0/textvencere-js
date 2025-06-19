@@ -51,4 +51,5 @@ function lex(str) {
 
 export default Object.freeze({
   lex,
+  PREPOSITIONS,
 });
